@@ -148,7 +148,7 @@ ssh-add -l
 SSH_ARGS="-F $SSH_CONFIG_FILE"
 
 amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku apps:create $APP_NAME || true'
-amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku builder:set $APP_NAME build-dir /'
+# amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku builder:set $APP_NAME build-dir /'
 amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku builder-dockerfile:set $APP_NAME dockerfile-path Dockerfile'
 
 # Set common env settings
