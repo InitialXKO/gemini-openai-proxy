@@ -2,8 +2,10 @@ version: '3.9'
 
 services:
   gemini:
-    image: zhu327/gemini-openai-proxy:latest
+    image: gemini-openai-proxy
     restart: always
     stdin_open: true
     tty: true
+    build:
+      context: .
     container_name: gemini
