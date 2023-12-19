@@ -183,7 +183,7 @@ amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTA
     DB_PORT=$DJANGO_DB_PORT'
 
 
-amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku git:sync --build $APP_NAME https://github.com/'"$GIT_USERNAME_OR_ORG"'/'"$GIT_REPO_NAME"'.git main'
+amber exec -v --unmasked -- sh -c ''"ssh $SSH_ARGS"' dokku@$DOKKU_HOST -C $CONTAINER_HOSTING_API_KEY dokku git:from-image $APP_NAME zhu327/gemini-openai-proxy:latest'
 
 # Assign letsencrypt wildcard certificate
 # Note that SSH_ARGS are not stored in amber, which is why they are expanded
