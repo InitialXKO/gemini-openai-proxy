@@ -1,3 +1,15 @@
+# v0.0.4 (Wed Dec 27 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update publish-container.yaml ([@InitialXKO](https://github.com/InitialXKO))
+
+#### Authors: 1
+
+- [@InitialXKO](https://github.com/InitialXKO)
+
+---
+
 # v0.0.3 (Wed Dec 27 2023)
 
 #### ⚠️ Pushed to `main`
