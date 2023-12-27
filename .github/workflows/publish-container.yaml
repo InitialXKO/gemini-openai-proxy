@@ -40,7 +40,7 @@ jobs:
 
       - name: Push image
         run: |
-          IMAGE_ID=dokku/container-yqxutv4:latest
+          IMAGE_ID=dokku/container-yqxutv4
 
           # Change all uppercase to lowercase
           IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
