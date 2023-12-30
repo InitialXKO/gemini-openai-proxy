@@ -1,3 +1,15 @@
+# v0.0.9 (Sat Dec 30 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update Dockerfile ([@InitialXKO](https://github.com/InitialXKO))
+
+#### Authors: 1
+
+- [@InitialXKO](https://github.com/InitialXKO)
+
+---
+
 # v0.0.8 (Sat Dec 30 2023)
 
 #### ⚠️ Pushed to `main`
