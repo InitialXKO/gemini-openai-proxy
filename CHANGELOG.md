@@ -1,3 +1,15 @@
+# v0.0.11 (Sat Dec 30 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Delete .github/workflows/publish-container.yaml ([@InitialXKO](https://github.com/InitialXKO))
+
+#### Authors: 1
+
+- [@InitialXKO](https://github.com/InitialXKO)
+
+---
+
 # v0.0.10 (Sat Dec 30 2023)
 
 #### ⚠️ Pushed to `main`
