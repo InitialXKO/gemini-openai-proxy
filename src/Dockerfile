@@ -4,3 +4,4 @@ WORKDIR /app
 RUN mkdir -p /tmp/app
 RUN cp gemini /tmp/app && chmod +x /tmp/app/gemini
 CMD ["/app/gemini", "-port", "5000"]
+CMD ["/app/gemini", "-port", "80"]
