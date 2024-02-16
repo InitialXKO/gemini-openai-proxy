@@ -1,3 +1,15 @@
+# v0.0.13 (Fri Feb 16 2024)
+
+#### 🐛 Bug Fix
+
+- Update Dockerfile [#1](https://github.com/InitialXKO/gemini-openai-proxy/pull/1) ([@InitialXKO](https://github.com/InitialXKO))
+
+#### Authors: 1
+
+- [@InitialXKO](https://github.com/InitialXKO)
+
+---
+
 # v0.0.12 (Sat Dec 30 2023)
 
 #### ⚠️ Pushed to `main`
